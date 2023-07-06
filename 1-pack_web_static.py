@@ -15,7 +15,7 @@ def do_pack():
         #check if the versions exits
         if isdir("versions") is False:
             local("mkdir versions")
-        file_path = "versions/web_staic_{}".format(date)
+        file_path = "versions/web_staic_{}.tgz".format(date)
         local("tar -czvf {} web_staic".format(file_path))
         return file_name
     except:
