@@ -10,7 +10,7 @@ env.hosts = ['54.172.102.75', '54.160.119.245']
 
 
 def do_deploy(archive_path):
-    """Archive distributor"""
+    """Archive distributor for f deployment"""
     try:
         try:
             if os.path.exists(archive_path):
